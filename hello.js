@@ -8,3 +8,14 @@
   l love my life
   */
 console.log("hello","world")
+//addition in javascript
+console.log(2+2)
+//divison with a remainder
+console.log(3%4);
+
+
+
+
+
+
+
