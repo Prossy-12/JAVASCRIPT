@@ -1,20 +1,14 @@
 // create the element
-// createElement goes hand in hand with append or appendChild. and its better to use it with a container.
-let container = document.getElementById("container")
+// createElement goes hand in hand with append or appendChild. and its better to use it with a container.let container = document.getElementById("container")
 let addButton = document.getElementById("add-product")
 let addBranch = document.getElementById("add-branch")
 let updateTitle = document.getElementById("update-title")
 let title = document.getElementById("title")
 let removeButton = document.getElementById("remove-product")
-
+let container = document.getElementById("container")
 
 // addEventListener() - inbuilt, helps us to capture user signals / input(click, scroll etc)
-addButton.addEventListener("click", function () {
-  let newProduct = document.createElement("p");
-  newProduct.textContent = "Beans";
-
-  container.appendChild(newProduct);
-});
+addButton.addEventListener("click", function(){console.log("addbutton has being clicked")})
 
 addBranch.addEventListener("click", function () {
     let newBranch = document.createElement("p");
